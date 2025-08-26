@@ -48,7 +48,7 @@ body {
   flex-direction: column;
   justify-content: center;   /* centers vertically */
   align-items: center;       /* centers horizontally */
-  min-height: 100vh;         /* makes hero fill the screen */
+  min-height: 50vh;         /* makes hero fill the screen */
   text-align: center;
   background: linear-gradient(to right, #00b4d8, #0077b6);
   color: #fff;
