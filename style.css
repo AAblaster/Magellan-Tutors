@@ -44,11 +44,17 @@ body {
 
 /* Hero */
 .hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;   /* centers vertically */
+  align-items: center;       /* centers horizontally */
+  min-height: 100vh;         /* makes hero fill the screen */
   text-align: center;
-  padding: 10rem 2rem;
   background: linear-gradient(to right, #00b4d8, #0077b6);
   color: #fff;
   animation: fadeIn 1.5s ease-in-out;
+  padding: 0 2rem; /* remove big top padding since flex handles it */
+}
 }
 
 .hero h1 {
