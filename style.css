@@ -1,0 +1,194 @@
+/* Reset & Base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  background: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 3rem;
+  background: #222;
+  color: #fff;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.navbar .logo {
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+.navbar nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #ccc;
+  transition: color 0.3s;
+}
+
+.navbar nav a:hover,
+.navbar nav a.active {
+  color: #00b4d8;
+}
+
+/* Hero */
+.hero {
+  text-align: center;
+  padding: 5rem 2rem;
+  background: linear-gradient(to right, #00b4d8, #0077b6);
+  color: #fff;
+  animation: fadeIn 1.5s ease-in-out;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+}
+
+.hero .btn {
+  margin-top: 1.5rem;
+  padding: 0.8rem 1.5rem;
+  background: #fff;
+  color: #0077b6;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.hero .btn:hover {
+  transform: scale(1.1);
+}
+
+/* Tutor cards */
+.tutors-preview {
+  padding: 3rem 2rem;
+  text-align: center;
+}
+
+.tutor-cards {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.card {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+  width: 250px;
+  cursor: pointer;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 25px rgba(0,0,0,0.2);
+}
+
+/* Tutor Profiles */
+.tutor-list {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding: 3rem;
+}
+
+.profile {
+  background: #fff;
+  border-radius: 15px;
+  padding: 1.5rem;
+  text-align: center;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+  transition: transform 0.3s;
+}
+
+.profile:hover {
+  transform: scale(1.05);
+}
+
+.profile img {
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+/* Forms */
+.form-container {
+  display: flex;
+  justify-content: center;
+  padding: 3rem;
+}
+
+form {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+  width: 400px;
+}
+
+form label {
+  display: block;
+  margin-top: 1rem;
+  font-weight: bold;
+}
+
+form input,
+form select,
+form textarea {
+  width: 100%;
+  padding: 0.7rem;
+  margin-top: 0.5rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+form .btn {
+  margin-top: 1.5rem;
+  width: 100%;
+  padding: 0.8rem;
+  border: none;
+  background: #00b4d8;
+  color: #fff;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+form .btn:hover {
+  background: #0077b6;
+}
+
+/* Page Headers */
+.page-header {
+  text-align: center;
+  padding: 3rem 1rem;
+  background: #eee;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 2rem;
+  background: #222;
+  color: #fff;
+  margin-top: 3rem;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
