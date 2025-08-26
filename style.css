@@ -63,7 +63,7 @@ body {
 
 .hero .btn {
   margin-top: 50px;
-  padding: 0.8rem 1.5rem;
+  padding: 1rem 1.8rem;
   background: #fff;
   color: #0077b6;
   border: none;
@@ -74,7 +74,7 @@ body {
 }
 
 .hero .btn:hover {
-  transform: scale(1.1);
+  transform: scale(1.3);
 }
 
 /* Tutor cards */
