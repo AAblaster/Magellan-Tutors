@@ -62,12 +62,12 @@ body {
 }
 
 .hero .btn {
-  margin-top: 200px;
+  margin-top: 50px;
   padding: 0.8rem 1.5rem;
   background: #fff;
   color: #0077b6;
   border: none;
-  border-radius: 25px;
+  border-radius: 50px;
   cursor: pointer;
   transition: transform 0.3s;
   
